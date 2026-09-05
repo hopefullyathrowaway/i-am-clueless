@@ -1,39 +1,28 @@
 {
   "name": "Sapphire Indigo",
-  "description": "A deep purplish-blue and sapphire theme with zero teal.",
+  "description": "A deep purplish-blue and sapphire theme built for Kettu/Shiggycord.",
   "author": "AI Assistant",
-  "spec": 3,
-  "semanticColors": {
-    "BACKGROUND_PRIMARY": ["#0f1123", "#f0f2fa"],
-    "BACKGROUND_SECONDARY": ["#161933", "#e6eaf5"],
-    "BACKGROUND_SECONDARY_ALT": ["#161933", "#dde3f0"],
-    "BACKGROUND_TERTIARY": ["#22264d", "#ccd5e8"],
-    "BACKGROUND_ACCENT": ["#5865f2", "#4d56c7"],
-    "BACKGROUND_FLOATING": ["#0f1123", "#ffffff"],
-    "TEXT_NORMAL": ["#e0e4fc", "#1c1d24"],
-    "TEXT_MUTED": ["#8e97c9", "#5c6280"],
-    "HEADER_PRIMARY": ["#ffffff", "#0f1123"],
-    "HEADER_SECONDARY": ["#a4b0ff", "#4d56c7"],
-    "INTERACTIVE_NORMAL": ["#8e97c9", "#5c6280"],
-    "INTERACTIVE_HOVER": ["#b0bcff", "#3b4299"],
-    "INTERACTIVE_ACTIVE": ["#ffffff", "#1c1d24"]
-  },
-  "rawColors": {
-    "brand_500": "#5865f2",
-    "primary_600": "#161933"
-  },
-  "plus": {
-    "version": "1.0.0",
-    "icons": {
-      "BackgroundAccent": "#5865f2",
-      "InteractiveActive": "#ffffff",
-      "InteractiveNormal": "#8e97c9"
-    },
-    "customIconColors": {
-      "home": "#5865f2",
-      "messages": "#5865f2",
-      "notifications": "#5865f2",
-      "search": "#5865f2",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "theme": {
+    "variables": {
+      "background-primary": "#0f1123",
+      "background-secondary": "#161933",
+      "background-secondary-alt": "#161933",
+      "background-tertiary": "#22264d",
+      "background-accent": "#5865f2",
+      "background-floating": "#0f1123",
+      "text-normal": "#e0e4fc",
+      "text-muted": "#8e97c9",
+      "header-primary": "#ffffff",
+      "header-secondary": "#a4b0ff",
+      "interactive-normal": "#8e97c9",
+      "interactive-hover": "#b0bcff",
+      "interactive-active": "#ffffff",
+      "brand-experiment": "#5865f2"
+    }
+  }
+}
       "settings": "#5865f2"
     }
   }
